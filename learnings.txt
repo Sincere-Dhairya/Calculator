@@ -1,0 +1,56 @@
+Javascript:
+
+1. in classes you declare constructor as
+class name{
+    constructor( arg1, arg2 ,...){
+        ...
+    }
+    ...
+}
+
+best practice is to use 'this' keyword everytime we use class member inside any member function
+
+'const' keyword is used to declare a new variable.
+
+when you dont know how to initialize any variable, just assign 'undefined' to the variable.
+
+=== means exactly equal.
+
+parseFloat(string) method is used to convert the string into floating number.
+
+isNaN(arg) method tells us if the argument is Null or not.
+
+toString() method helps us convert a 'JavaScript Number' into a string.
+
+.split(char) method of string breaks the string at all the position where there is the cahracter char in the string and returns an array of substrings which can be accessed using [0], [1], ... indices.
+
+'let' is another keyword that helps us in declaring the variable.
+
+toLocaleString() method returns language sensitive string
+find reference of inserting comas here: line 71, /script.js
+
+one of the short concatenating syntax is:
+`${string1}{some other string or character}${string2}`
+where string1 and string2 are the string variables being used in the program
+
+document in JavaScript is something very big.
+It is owner of all objects in our webpage.
+document object itslef represents our webpage. If we want to start accessing any element in HTML page, we start it with document.
+
+some of the commonly used methods of document are:
+document.getElementById(id) -	Find an element by element id
+document.getElementsByTagName(name) -	Find elements by tag name
+document.getElementsByClassName(name) -	Find elements by class name
+
+document.querySelector('.example') - gives us the first element in the document with class example.
+similarly if we use attributes, we will use them as:
+document.querySelector('[data]') - that gives us access to the first element in the document with class.
+
+document.querySelectorAll() - gives all the elements in the document that satisfy given query.
+
+
+forEach() is an array method that does certain defined operations to every element in the array.
+
+document.querySelector.addEventListener ('action like click')
+=> trigger the function that succeeds this operator when the given html element is being interacted by the user.
+element.addEventListener(event, listener, useCapture); // gfg link: https://www.geeksforgeeks.org/javascript-addeventlistener-with-examples/
